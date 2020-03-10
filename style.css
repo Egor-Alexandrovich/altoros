@@ -50,17 +50,12 @@ ul {
     color: #333333;
     margin-bottom: 24px; }
   .container__list {
+    padding-left: 10px;
     margin-bottom: 50px; }
   .container__list-item {
-    margin-bottom: 24px; }
-    .container__list-item::before {
-      content: '';
-      display: inline-block;
-      width: 8px;
-      height: 8px;
-      margin-bottom: 0.2rem;
-      margin-right: 16px;
-      background-color: #1EA2A1; }
+    margin-bottom: 24px;
+    padding-left: 1rem;
+    list-style-image: url("./img/rectangle.svg"); }
 
 /*======================Media for contact =====================*/
 @media (max-width: 1010px) {
